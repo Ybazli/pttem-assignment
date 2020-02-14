@@ -1,0 +1,12 @@
+types:
+  # Product class
+  Product:
+    properties:
+      name: { range: "String" }
+      url: { range: "String" }
+      image: { range: "String" }
+      availability: { range: "Boolean" }
+      description: { range: "Text" }
+      provider: { range: "String" }
+      category: { range: "String" }
+      created_at: { range: "Date" }
